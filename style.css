@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#status {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background: #00e676; /* Green for online */
+    color: black;
+}
+
+#status.offline {
+    background: #ff5252; /* Red for offline */
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.lyrics {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
